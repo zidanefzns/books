@@ -153,3 +153,7 @@ Bisa, Karena browser modern (seperti Chrome, Firefox, Edge) mendukung HTML5 Geol
 ### Soal 13
 Ya, terdapat perbedaan pada UI-nya. Perbedaan antara kode sekarang dengan FutureBuilder dan kode sebelumnya dengan setState terletak pada cara UI diperbarui saat data lokasi sudah tersedia.FutureBuilder secara otomatis membangun ulang UI berdasarkan status Future, sehingga lebih rapi dan reaktif tanpa perlu memanggil setState secara manual. Sementara pada versi setState, kamu harus menunggu hasil secara manual dan memicu pembaruan UI dengan setState setelah data diterima.
 ![Capture soal 13](assets/books9.gif)
+
+### Soal 14
+Ya, Menambahkan snapshot.hasError membuat UI informatif karena menangani kasus error dengan baik dengan menampilkan text ('Something terrible happened!'). Ini penting dalam aplikasi agar pengguna tahu jika sesuatu tidak berjalan semestinya atau error.
+![Capture soal 14](assets/books10.gif)
