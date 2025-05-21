@@ -157,3 +157,8 @@ Ya, terdapat perbedaan pada UI-nya. Perbedaan antara kode sekarang dengan Future
 ### Soal 14
 Ya, Menambahkan snapshot.hasError membuat UI informatif karena menangani kasus error dengan baik dengan menampilkan text ('Something terrible happened!'). Ini penting dalam aplikasi agar pengguna tahu jika sesuatu tidak berjalan semestinya atau error.
 ![Capture soal 14](assets/books10.gif)
+
+## Praktikum 8
+### Soal 16
+Warna background diset menjadi warna yang dipilih. Karena Fungsi Navigator.pop() akan Menutup (pop) halaman NavigationSecond. Mengirimkan nilai color kembali ke halaman sebelumnya (NavigationFirst) sebagai return value dari Navigator.push(). Nilai color dari halaman kedua dikembalikan ke color = await Navigator.push(...);. Kemudian setState() dipanggil untuk memicu rebuild. Background halaman NavigationFirst berubah warna sesuai pilihan.
+![Capture soal 16](assets/books11.gif)
