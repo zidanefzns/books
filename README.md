@@ -109,3 +109,7 @@ Perbedaan dengan langkah 2 adalah tidak ada error handling:
     - catchError() dapat menangani error dengan baik.
     - Aplikasi tetap stabil dan responsif.
 ![Capture soal 6](assets/books5.gif)
+
+## Praktikum 4
+### Soal 7
+![Capture soal 7](assets/books6.gif)
